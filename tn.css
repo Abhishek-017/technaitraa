@@ -285,6 +285,8 @@ body {
     opacity: 0;
     animation: fade-phone 12.5s infinite; /* Total duration of 12 seconds */
     overflow: hidden;
+    z-index: 1;
+    border-radius: 30px;
 }
 @keyframes fade-phone {
     0% {
